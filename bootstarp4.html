@@ -1,0 +1,104 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Sticky Footer Navbar Template for Bootstrap</title>
+
+    <link rel="canonical" href="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          background-color: #17a2b8;
+          height: 100vh;
+        }
+        #login .container #login-row #login-column #login-box {
+          margin-top: 120px;
+          max-width: 600px;
+          height: 320px;
+          border: 1px solid #9C9C9C;
+          background-color: #EAEAEA;
+        }
+        #login .container #login-row #login-column #login-box #login-form {
+          padding: 20px;
+        }
+        #login .container #login-row #login-column #login-box #login-form #register-link {
+          margin-top: -47px;;
+        }
+    </style>
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="text-center">
+        <a class="navbar-brand text-center" href="#">Login and Registration Application</a>
+        <div>
+
+      </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <div id="login">
+
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 class="text-center text-info">Login</h3>
+                            <div class="form-group">
+                                <label for="username" class="text-info">Email:</label><br>
+                                <input type="text" placeholder="Email" name="email" id="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="text-info">Password:</label><br>
+                                <input type="text" placeholder="Password" name="password" id="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <div class="row col-lg-12">
+                                    <input type="submit" name="login" class="btn btn-info btn-md" value="Login">
+                                </div>
+
+                            </div>
+                            <div id="register-link" class="text-right">
+                                <a href="#" class="text-info">Register here</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer text-center"> &copy; Developed By: Bhupesh
+      <div class="container">
+        <span class="text-muted"></span>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
