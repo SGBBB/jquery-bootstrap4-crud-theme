@@ -1,6 +1,6 @@
 # jquery-bootstrap4-crud-theme
 
-## Jquery DataTable API [
+## Jquery DataTable API 
 
 
-https://datatables.net/examples/index]: url "title"
+https://datatables.net/examples/index
